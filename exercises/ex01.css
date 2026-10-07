@@ -1,0 +1,28 @@
+html {
+    background-color: tomato
+}
+
+UL {color:rgb(123,34,89) }
+
+h1 {background-color:rgb(120, 202, 43);
+color:goldenrod
+font-weight:normal 
+}
+
+p { color:aquamarine
+
+}
+
+p2 {background-color: red;
+    padding: 20%;
+    margin: 60px; 
+    font-size: 10 px 
+    
+}
+
+IMG {
+    display: black; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+}
