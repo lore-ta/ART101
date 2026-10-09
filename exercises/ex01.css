@@ -1,14 +1,18 @@
 html {
-    background-color: tomato
+    background-color: rgb(255, 71, 117)
 }
 
-UL {color:rgb(123,34,89) }
+UL {color:rgb(236, 234, 236) }
 
 h1 {background-color:rgb(120, 202, 43);
-color:goldenrod
-font-weight:normal 
+color:brown; 
 }
 
+p.normal {
+  font-weight: normal;
+}
+
+p
 p { color:aquamarine
 
 }
@@ -19,6 +23,7 @@ p2 {background-color: red;
     font-size: 10 px 
     
 }
+p2
 
 IMG {
     display: black; 
@@ -26,3 +31,38 @@ IMG {
     margin-right: auto;
     width: 50%; 
 }
+
+.highlight_01 {background-color: azure;} 
+
+.highlight_02 {background-color:rgb(120, 202, 43)}
+
+.highlight_03 {background-color: blue;}
+
+A:hover {color:aqua; background:rgb(rgb(253, 31, 31) green blue / alpha)}
+
+#example1 {
+    border: 1px solid;
+    padding: 3px;
+    box-shadow: 1px 3px;
+}
+
+#main {background-color: azure; padding: 50px; margin:150px;}
+
+A.hover .hightlight_04 {
+    color:rgb(43, 199, 202)
+}
+
+#demoObject {
+-webkit-box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0);
+background: #9400D3;
+}
+body#tinymce {
+background: #FFFFFF
+}
+
+
+#gallery {display: flex;}
+#gallery IMG{ width: 150px}
+
+#main2 {background-color: #0000FF; padding:55px; margin:100px;}
