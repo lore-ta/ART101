@@ -25,11 +25,11 @@ p2 {background-color: red;
 }
 p2
 
-IMG {
-    display: black; 
+img {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%; 
+    width: 50%;
 }
 
 .highlight_01 {background-color: azure;} 
@@ -62,7 +62,25 @@ background: #FFFFFF
 }
 
 
-#gallery {display: flex;}
-#gallery IMG{ width: 150px}
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+#gallery > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#gallery img {
+    width: 150px;
+    height: auto;
+    margin: 0;
+}
 
 #main2 {background-color: #0000FF; padding:55px; margin:100px;}
