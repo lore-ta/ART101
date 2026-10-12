@@ -6,7 +6,8 @@ html {
 
 
 
-h2 {font-weight: bolder;}
+h2 {font-weight: bolder;
+    text-align: center;}
 
 
 
@@ -75,18 +76,12 @@ background: #FFFFFF
     margin: 0;
 }
 
-#main2 {
-    background-color: #0000FF;
-     padding:200px; 
-     margin:100px;
-     height:150px; 
-    
-    }
 
-#div1 {
-  border-radius: 100px;
+#div1 {  
+  border-radius: 155px;
   background-color: #00d5ff;
   padding: 150px;
   width: 100px;
   height: 120px; 
+  text-align: center;
 }
