@@ -2,28 +2,23 @@ html {
     background-color: rgb(255, 71, 117)
 }
 
-UL {color:rgb(236, 234, 236) }
+.center {text-align: center;}
 
-h1 {background-color:rgb(120, 202, 43);
-color:brown; 
-}
 
-p.normal {
-  font-weight: normal;
-}
 
-p
-p { color:aquamarine
+h2 {font-weight: bolder;}
 
-}
 
-p2 {background-color: red;
+
+p {background-color: rgb(255, 0, 200);
     padding: 20%;
     margin: 60px; 
     font-size: 10 px 
     
 }
-p2
+
+UL {color:rgb(236, 234, 236) } 
+
 
 img {
     display: block;
@@ -32,25 +27,22 @@ img {
     width: 50%;
 }
 
-.highlight_01 {background-color: azure;} 
+.highlight_01 {background-color: #afaadf;} 
 
-.highlight_02 {background-color:rgb(120, 202, 43)}
+.highlight_02 {color: pink; background-color:rgb(157, 43, 202)}
 
-.highlight_03 {background-color: blue;}
+.highlight_03 {color:darkmagenta; background-color: rgb(0, 255, 38);}
 
 A:hover {color:aqua; background:rgb(rgb(253, 31, 31) green blue / alpha)}
 
+
 #example1 {
     border: 1px solid;
-    padding: 3px;
-    box-shadow: 1px 3px;
+    padding: 1px;
+    box-shadow: 1px 1px;
 }
 
 #main {background-color: azure; padding: 50px; margin:150px;}
-
-A.hover .hightlight_04 {
-    color:rgb(43, 199, 202)
-}
 
 #demoObject {
 -webkit-box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0); 
@@ -63,7 +55,7 @@ background: #FFFFFF
 
 
 #gallery {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
@@ -71,7 +63,7 @@ background: #FFFFFF
 }
 
 #gallery > div {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
@@ -83,4 +75,18 @@ background: #FFFFFF
     margin: 0;
 }
 
-#main2 {background-color: #0000FF; padding:55px; margin:100px;}
+#main2 {
+    background-color: #0000FF;
+     padding:200px; 
+     margin:100px;
+     height:150px; 
+    
+    }
+
+#div1 {
+  border-radius: 100px;
+  background-color: #00d5ff;
+  padding: 150px;
+  width: 100px;
+  height: 120px; 
+}
