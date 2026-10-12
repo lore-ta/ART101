@@ -7,15 +7,20 @@ html {
 
 
 h2 {font-weight: bolder;
-    text-align: center;}
+    text-align: center;
+}
 
+.highlight_01 {background-color: #afaadf;} 
+
+.highlight_02 {color: pink; background-color:rgb(157, 43, 202)}
+
+.highlight_03 {color:darkmagenta; background-color: rgb(0, 255, 38);}
 
 
 p {background-color: rgb(255, 0, 200);
     padding: 20%;
     margin: 60px; 
-    font-size: 10 px 
-    
+    font-size: 10 px     
 }
 
 UL {color:rgb(236, 234, 236) } 
@@ -25,17 +30,8 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: auto;
 }
-
-.highlight_01 {background-color: #afaadf;} 
-
-.highlight_02 {color: pink; background-color:rgb(157, 43, 202)}
-
-.highlight_03 {color:darkmagenta; background-color: rgb(0, 255, 38);}
-
-A:hover {color:aqua; background:rgb(rgb(253, 31, 31) green blue / alpha)}
-
 
 #example1 {
     border: 1px solid;
@@ -43,7 +39,13 @@ A:hover {color:aqua; background:rgb(rgb(253, 31, 31) green blue / alpha)}
     box-shadow: 1px 1px;
 }
 
-#main {background-color: azure; padding: 50px; margin:150px;}
+
+A:hover {
+    color:aqua; 
+    background:rgb(rgb(253, 31, 31) green blue / alpha)
+}
+
+#main {background-color: azure; padding: 100px; margin:auto;}
 
 #demoObject {
 -webkit-box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0); 
@@ -71,17 +73,18 @@ background: #FFFFFF
 }
 
 #gallery img {
-    width: 150px;
+    width: 300px;
     height: auto;
-    margin: 0;
+    margin: auto;
 }
 
 
 #div1 {  
   border-radius: 155px;
+  border-style: dotted;
   background-color: #00d5ff;
   padding: 150px;
-  width: 100px;
-  height: 120px; 
+  width: auto;
+  height: auto; 
   text-align: center;
 }
