@@ -1,16 +1,19 @@
 html {
-    background-color: rgb(255, 71, 117)
+    background-color: #1b1b2a
 }
+
+#title_box {background-color: #bd00ff; padding: 30px; margin:50px}
 
 .center {text-align: center;}
 
-
+h1 {font-weight:bolder ;
+    text-align: center}
 
 h2 {font-weight: bolder;
     text-align: center;
 }
 
-.highlight_01 {background-color: #afaadf;} 
+.highlight_01 {text-shadow:2px 2px 0 #afaadf;} 
 
 .highlight_02 {color: pink; background-color:rgb(157, 43, 202)}
 
@@ -20,7 +23,7 @@ h2 {font-weight: bolder;
 p {background-color: rgb(255, 0, 200);
     padding: 20%;
     margin: 60px; 
-    font-size: 10 px     
+    font-size: 10px     
 }
 
 UL {color:rgb(236, 234, 236) } 
@@ -39,13 +42,14 @@ img {
     box-shadow: 1px 1px;
 }
 
-
+.center { text-align: center;}
 A:hover {
     color:aqua; 
-    background:rgb(rgb(253, 31, 31) green blue / alpha)
+    background: rgb(253, 31,31);
 }
 
-#main {background-color: azure; padding: 100px; margin:auto;}
+
+#basics {background-color: azure; padding: 100px; margin:auto;}
 
 #demoObject {
 -webkit-box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0); 
@@ -71,7 +75,11 @@ background: #FFFFFF
     justify-content: center;
     gap: 1rem;
 }
-
+.caption {background-color: transparent;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px}
+    
 #gallery img {
     width: 300px;
     height: auto;
