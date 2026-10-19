@@ -2,18 +2,25 @@ html {
     background-color: #1b1b2a
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+.action {
+    font-family: "Henny Penny", system-ui;
+    font-size: 20px;
+}
 #title_box {background-color: #a700ff; padding: 30px; margin:50px}
 
 .center {text-align: center;}
 
 h1 {font-weight:bolder ;
-    text-align: center}
+    text-align: center; 
+    color: #00ff9f;}
 
 h2 {font-weight: bolder;
     text-align: center;
 }
 
-.shadow_purple{text-shadow:2px 2px 0 #afaadf;} 
+.shadow_purple{text-shadow:2px 2px 0 #ff00f2;} 
 
 .text_pink_purp {color: pink; background-color:rgb(157, 43, 202)}
 
@@ -51,8 +58,8 @@ A:hover {
 #basics {background-color: #a700ff ; padding: 10px; margin:30px; font-size:20px ;}
 
 #demoObject {
--webkit-box-shadow: 7px -5px 5px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0); 
-box-shadow: 7px -5px 5px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0);
+-webkit-box-shadow: 5px -5px 5px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px -5px 5px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 body#tinymce {
 background: #FFFFFF
@@ -87,7 +94,7 @@ background: #FFFFFF
 #div1 {  
   border-radius: 155px;
   border-style: dotted;
-  background-color: #00d5ff;
+  background-color: #00b8ff;
   padding: 150px;
   width: auto;
   height: auto; 
