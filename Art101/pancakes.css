@@ -93,13 +93,7 @@ background: #FFFFFF
 
 #pan-home { position: relative; height:100wh ; background: url(../exercises/images/Stars_flash.gif)}
 
-#piragua { position: absolute;
-    bottom: 50px ; 
-    border-right: 20%;} 
-.img #piragua { 
-    width: 300px;
-    height: auto;
-    margin: auto; }
+#piragua { position: absolute; bottom: 50px ;  border-right: 20%;} 
 
 .henny-penny-regular {
   font-family: "Henny Penny", system-ui;
