@@ -1,33 +1,51 @@
-// the clicker button program 
+// the clicker button progrm 
 
-let count = 0; 
+// we create a variable named "count", the initia; value is 0
 
-// an indexed array of data// 
-let colors = ["green","orange","brown","yellow","gold","purple","red","pink"];
+let count=0;
+let colorsCount=0; // new line
+
+// an indexed array of data
+let colors=["green", "orange", "brown", "yellow", "gold", "purple", "red", "pink"];
 
 let buttonText="";
 
+// we listend for when an htnl element with id "needy-button" is clicked and then...
 
-$("#needy-button").click ( function(){
-
+$("#needy-button").click( function(){ 
 
     // what to do when the button is clicked
-    count = count + 1;
-   
-    console.log(count); 
-    console.log(colors[colorsCount]); 
+    // first, set a new value for "count", which is the current value + 1
+
+    count = count +1; 
+
+    console.log(count);
+    console.log(colors[colorsCount]); // changed line
 
     // now let's find our button and set a new text for it
 
-    buttonText=" ur a bitch " + count + " times and color is " + colors[colorsCount];
+    buttonText="I was kicked " + count + " times and color is " + colors[colorsCount]; // changed line
 
-    $("#needy-button").html ( buttonText );
+    $("#needy-button").html( buttonText ); 
+
+    $("body").css( "background-color", colors[colorsCount] ); // changed line
+
+     $("body").append("<img src='fm" + count +".jpg'>");
+
+    // if we are run out of colors start fron the first one anew
+
+    colorsCount = colorsCount +1;  // new line
+
+    if ( colorsCount >= 8 ) { colorsCount = 0;  } // new line
+
+    if ( count >= 16 ) { $("#needy-button").after("<p>my mood is...wild</p>"); }
+    else if (count>=13) {$("#needy-button").after ("<p>my mood is...really agitated</p>"); }
+    else if (count >=5) {$("#needy-button").after ("<p>my mood is...agitated</p>"); }
     
-    $("body").css("background-color", colors[count-1])
+    $("needy-button").after("<p>my mood is...default </p>");
 
-    $("body").append("<img src='fm" + count +".jpg'>");
+});
 
-    if (count >=8) {count = 0;}
 
 
 // $ means to find a variable on our html, () expected to put something inside of it. # for id, . for class. what goes inside of paranthsis
@@ -36,11 +54,4 @@ $("#needy-button").click ( function(){
 // can combine operations by using "."  square bracket means I'm going to provide the list "an array"
 // Arrays are already lists (JS will do it on it's own) JS begins counting from 0
 // each list has a number id // 
-
-colorsCount = colorsCount +1;
-
-if ( colorsCount >=8 ) { colorsCount =0;}
-
- }); 
-
 
