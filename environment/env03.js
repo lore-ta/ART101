@@ -1,17 +1,17 @@
 let environmentTitle = "soul smeared";
 
-let environmentElements = [" mountains "," ocean", "grass"," trains "];
+let environmentElements = [" mountains "," ocean ", " grass "," trains ", " streams and rivers "];
 
 let mainEntity = {
     name: "gut feeling",
     type: "intuition",
     mood: "uneasy",
-    isMoving: "true",
+    isMoving: true,
     favoriteElement: environmentElements[3]
 };
 
 
-let disturbCount = 0
+let disturbCount = 0;
 
 $("#title-button").click(function () { 
     $("#environment-output").html("<h2>" + environmentTitle + "</h2>");
