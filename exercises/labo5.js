@@ -1,14 +1,13 @@
 function askNumber(whatNumber) {
-    let userNumber = prompt("Guess 1-10?");
+    let userNumber = prompt ("Guess 1-10"); 
 
-    if (userNumber == whatNumber) {
+    if (userNumber ==whatNumber) {
         $("#output").html("You got it!");
     }
     else {
-        $("#output").html("Noooooope");
+        $("output").html("Noooooooope");
     }
-}
-
-$("#good-button").click(function () {
-    askNumber(8);
-});
+    $("#good-button").click(function () {
+        askNumber(5); 
+    });
+};
