@@ -7,7 +7,8 @@ function askNumber(whatNumber) {
     else {
         $("output").html("Noooooooope");
     }
-    $("#good-button").click(function () {
-        askNumber(5); 
-    });
 };
+
+ $("#good-button").click(function () {
+        askNumber(5); 
+    } ); 
